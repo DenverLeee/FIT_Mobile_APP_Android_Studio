@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/index_bg"
+    android:orientation="vertical"
+    tools:context=".IndexActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_user"
+            android:layout_width="@dimen/dp_120"
+            android:layout_height="@dimen/dp_120"
+            android:layout_marginRight="10dp"
+            android:text="个人信息" />
+
+        <Button
+            android:id="@+id/btn_project"
+            android:layout_width="@dimen/dp_120"
+            android:layout_height="@dimen/dp_120"
+            android:layout_marginLeft="10dp"
+            android:text="健身项目" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_teacher"
+            android:layout_width="@dimen/dp_120"
+            android:layout_height="@dimen/dp_120"
+            android:layout_marginRight="10dp"
+            android:text="教练团队" />
+
+        <Button
+            android:id="@+id/btn_food"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="10dp"
+            android:text="营养食物" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
