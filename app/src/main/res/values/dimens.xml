@@ -7,22 +7,6 @@
     <dimen name="indicator_size">10dp</dimen>
     <dimen name="indicator_spacing">2dp</dimen>
 
-    <!--    Android 系统自带的文本Style尺寸对应表
-    style="@style/TextAppearance.AppCompat.Display4" 112sp
-    style="@style/TextAppearance.AppCompat.Display3" 56sp
-    style="@style/TextAppearance.AppCompat.Display2" 45sp
-    style="@style/TextAppearance.AppCompat.Display1" 34sp
-    style="@style/TextAppearance.AppCompat.Headline" 24sp
-    style="@style/TextAppearance.AppCompat.Title"    21sp Bold
-    style="@style/TextAppearance.AppCompat.Subhead"  17sp(Device) 16sp(Desktop)
-    style="@style/TextAppearance.AppCompat.Body2"    15sp Bold(Device) 14sp Bold(Desktop)
-    style="@style/TextAppearance.AppCompat.Body1"    15sp(Device) 14sp Bold(Desktop)
-    style="@style/TextAppearance.AppCompat.Caption"  13sp
-    style="@style/TextAppearance.AppCompat.Button"   15sp Bold
-    -->
-
-    <!-- 尺寸大小的命名规则 -->
-    <!-- font sizes -->
     <dimen name="font_larger">22dp</dimen>
     <dimen name="font_large">18dp</dimen>
     <dimen name="font_normal">15dp</dimen>
