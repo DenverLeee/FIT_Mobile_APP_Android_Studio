@@ -19,14 +19,14 @@
             android:layout_width="@dimen/dp_120"
             android:layout_height="@dimen/dp_120"
             android:layout_marginRight="10dp"
-            android:text="个人信息" />
+            android:text="Personal Info" />
 
         <Button
             android:id="@+id/btn_project"
             android:layout_width="@dimen/dp_120"
             android:layout_height="@dimen/dp_120"
             android:layout_marginLeft="10dp"
-            android:text="健身项目" />
+            android:text="Fit Project" />
 
 
     </LinearLayout>
@@ -41,14 +41,14 @@
             android:layout_width="@dimen/dp_120"
             android:layout_height="@dimen/dp_120"
             android:layout_marginRight="10dp"
-            android:text="教练团队" />
+            android:text="Coach Team" />
 
         <Button
             android:id="@+id/btn_food"
             android:layout_width="120dp"
             android:layout_height="120dp"
             android:layout_marginLeft="10dp"
-            android:text="营养食物" />
+            android:text="Good Food" />
 
 
     </LinearLayout>

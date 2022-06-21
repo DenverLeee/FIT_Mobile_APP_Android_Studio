@@ -43,7 +43,7 @@ public class UserInfoActivity extends AppCompatActivity {
             }
         });
 
-        binding.llTitle.tvTitle.setText("用户中心");
+        binding.llTitle.tvTitle.setText("User Centre");
 
         binding.btnSaveUser.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -54,7 +54,7 @@ public class UserInfoActivity extends AppCompatActivity {
 
                 person.updateAll("name = ?", UserUtils.getUserName());
 
-                Toast.makeText(UserInfoActivity.this, "修改成功", Toast.LENGTH_SHORT).show();
+                Toast.makeText(UserInfoActivity.this, "Modify Successfully!", Toast.LENGTH_SHORT).show();
 
                 finish();
             }

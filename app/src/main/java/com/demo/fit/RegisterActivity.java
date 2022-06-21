@@ -33,11 +33,11 @@ public class RegisterActivity extends AppCompatActivity {
                 String weight = binding.etWeight.getText().toString();
 
                 if (TextUtils.isEmpty(name) || TextUtils.isEmpty(psd) || TextUtils.isEmpty(psd1) || TextUtils.isEmpty(age) || TextUtils.isEmpty(weight)) {
-                    Toast.makeText(RegisterActivity.this, "请输入用户信息", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(RegisterActivity.this, "Enter UserInfo", Toast.LENGTH_SHORT).show();
                     return;
                 }
                 if (!psd.equals(psd1)) {
-                    Toast.makeText(RegisterActivity.this, "两次密码不一致", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(RegisterActivity.this, "Passwords are not the same!", Toast.LENGTH_SHORT).show();
                     return;
                 }
 
@@ -48,10 +48,10 @@ public class RegisterActivity extends AppCompatActivity {
                 person.setWeight(weight);
 
                 if (person.save()) {
-                    Toast.makeText(RegisterActivity.this, "注册成功", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(RegisterActivity.this, "Register Successfully!", Toast.LENGTH_SHORT).show();
                     finish();
                 } else {
-                    Toast.makeText(RegisterActivity.this, "注册失败，用户名已存在", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(RegisterActivity.this, "Error!Username already exist!", Toast.LENGTH_SHORT).show();
                 }
             }
         });

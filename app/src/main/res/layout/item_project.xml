@@ -26,7 +26,7 @@
                 android:id="@+id/tv_title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="这里是标题"
+                android:text="11111"
                 android:textColor="@color/black"
                 android:textSize="@dimen/dimen_16" />
 
@@ -37,7 +37,7 @@
                 android:layout_marginTop="@dimen/dimen_10"
                 android:ellipsize="end"
                 android:maxLines="2"
-                android:text="这里是内容里是内容里是内容里是内容里是内容里是内容里是内容里是内容里是内容里是内容里是内容"
+                android:text="Content - Content - Content"
                 android:textColor="@color/gray_s" />
 
         </LinearLayout>

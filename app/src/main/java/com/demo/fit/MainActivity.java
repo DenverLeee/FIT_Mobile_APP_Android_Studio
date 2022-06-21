@@ -38,18 +38,18 @@ public class MainActivity extends AppCompatActivity {
                 String password = binding.mima.getText().toString();
 
                 if (TextUtils.isEmpty(user) || TextUtils.isEmpty(password)) {
-                    Toast.makeText(MainActivity.this, "请输入用户名或密码", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "Enter Your Account!", Toast.LENGTH_SHORT).show();
                     return;
                 }
 
                 list = LitePal.where("name=? and password = ?", user, password).find(Person.class);
 
                 if (list.size() == 0) {
-                    Toast.makeText(MainActivity.this, "用户名或密码错误", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "Username or Password Error!", Toast.LENGTH_SHORT).show();
                     return;
                 }
 
-                Toast.makeText(MainActivity.this, "登录成功", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "Login Successfully", Toast.LENGTH_SHORT).show();
 
                 UserUtils.setUserName(user);
 

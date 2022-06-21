@@ -28,7 +28,7 @@ public class ProjectDetailActivity extends AppCompatActivity {
                 finish();
             }
         });
-        binding.llTitle.tvTitle.setText("详情");
+        binding.llTitle.tvTitle.setText("Details");
         binding.tvDetailTitle.setText(projectBeen.getTitle());
         binding.tvDetailContent.setText(projectBeen.getContent());
 

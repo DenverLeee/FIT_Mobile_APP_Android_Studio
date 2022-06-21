@@ -21,7 +21,7 @@
             <TextView
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
-                android:text="用户名:  "
+                android:text="UserName:  "
                 android:textColor="#000000"
                 android:textSize="20sp" />
 
@@ -29,7 +29,7 @@
                 android:id="@+id/zhanghao"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="请输入用户名"
+                android:hint="Enter UserName"
                 android:singleLine="true" />
         </LinearLayout>
 
@@ -42,7 +42,7 @@
             <TextView
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
-                android:text="密    码:  "
+                android:text="Password:  "
                 android:textColor="#000000"
                 android:textSize="20sp" />
 
@@ -50,7 +50,7 @@
                 android:id="@+id/mima"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="请输入密码"
+                android:hint="Enter Password"
                 android:singleLine="true" />
         </LinearLayout>
 
@@ -60,7 +60,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:background="@color/green"
-            android:text="登录"
+            android:text="Login"
             android:textColor="@color/white" />
 
         <TextView
@@ -69,7 +69,7 @@
             android:layout_marginTop="10dp"
             android:id="@+id/tv_register"
             android:gravity="right"
-            android:text="还没有账号？" />
+            android:text="No Register？" />
 
     </LinearLayout>
 

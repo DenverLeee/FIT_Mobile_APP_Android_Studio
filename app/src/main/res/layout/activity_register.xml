@@ -21,7 +21,7 @@
             <TextView
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
-                android:text="账        号:  "
+                android:text="UserName:  "
                 android:textColor="#000000"
                 android:textSize="18sp" />
 
@@ -29,7 +29,7 @@
                 android:id="@+id/et_name"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="请输入用户名"
+                android:hint="Enter UserName"
                 android:singleLine="true" />
         </LinearLayout>
 
@@ -42,7 +42,7 @@
             <TextView
                 android:layout_width="110dp"
                 android:layout_height="wrap_content"
-                android:text="密        码:  "
+                android:text="Password:  "
                 android:textColor="#000000"
                 android:textSize="18sp" />
 
@@ -50,7 +50,7 @@
                 android:id="@+id/et_psd"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="请输入密码"
+                android:hint="Enter Password"
                 android:singleLine="true" />
         </LinearLayout>
 
@@ -63,7 +63,7 @@
             <TextView
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
-                android:text="确认密码:  "
+                android:text="Repeat:  "
                 android:textColor="#000000"
                 android:textSize="18sp" />
 
@@ -71,7 +71,7 @@
                 android:id="@+id/et_queren"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="请输入密码"
+                android:hint="Enter Password"
                 android:singleLine="true" />
         </LinearLayout>
 
@@ -84,7 +84,7 @@
             <TextView
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
-                android:text="年        龄:  "
+                android:text="Your Age:  "
                 android:textColor="#000000"
                 android:textSize="18sp" />
 
@@ -92,7 +92,7 @@
                 android:id="@+id/et_age"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="请输入年龄"
+                android:hint="Enter Age"
                 android:singleLine="true" />
         </LinearLayout>
 
@@ -105,7 +105,7 @@
             <TextView
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
-                android:text="体        重:  "
+                android:text="Your Weight:  "
                 android:textColor="#000000"
                 android:textSize="18sp" />
 
@@ -113,7 +113,7 @@
                 android:id="@+id/et_weight"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="请输入体重"
+                android:hint="Enter Weight"
                 android:singleLine="true" />
         </LinearLayout>
 
@@ -123,7 +123,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="40dp"
             android:background="@color/green"
-            android:text="注册"
+            android:text="Register"
             android:textColor="@color/white" />
 
     </LinearLayout>
